@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sean Paolo Martinez | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sean Paolo Martinez - Web Developer Portfolio showcasing responsive websites and modern UI design.">
+    <meta name="keywords" content="Sean Paolo Martinez, Web Developer, Portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="Sean Paolo Martinez">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NOISE OVERLAY -->
+<div class="noise"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+    <a href="#home" class="logo">
+        <img src="assets/images/SPM_logo.png" alt="SPM Logo">
+    </a>
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+    </div>
+</header>
+
+<!-- HOME -->
+<section class="home" id="home">
+    <div class="home-bg-glow"></div>
+    <div class="home-content">
+        <div class="home-badge reveal">Available for projects</div>
+        <h1 class="reveal">
+            <span class="line">Sean Paolo</span>
+            <span class="line accent-line">Martinez</span>
+        </h1>
+        <div class="typed-wrapper reveal">
+            <span class="typed-prefix">I craft </span>
+            <span id="typed-text"></span><span class="cursor-blink"></span>
+        </div>
+        <p class="reveal">I build responsive and modern websites with clean design and smooth user experience.</p>
+        <div class="home-actions reveal">
+            <a href="assets/resume/Sean_Paolo_Martinez_Resume.pdf" download class="btn-primary">
+                <i class="fa fa-download"></i> Download CV
+            </a>
+            <a href="#contact" class="btn-ghost">Let's Talk <i class="fa fa-arrow-right"></i></a>
+        </div>
+        <div class="social-media reveal">
+            <a href="https://www.linkedin.com/in/sean-martinez-06139132b/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Sean-Pers0nal" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://discord.com/users/nakaviolet." target="_blank" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+        </div>
+    </div>
+    <div class="home-img reveal">
+        <div class="glowing-circle">
+            <img src="assets/images/picofme.png" alt="Sean Paolo Martinez">
+        </div>
+        <div class="floating-tag tag-1"><i class="fa-brands fa-html5"></i> HTML5</div>
+        <div class="floating-tag tag-2"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+        <div class="floating-tag tag-3"><i class="fa-brands fa-js"></i> JS</div>
+    </div>
+    <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <h2 class="section-title reveal">Who Am <span>I?</span></h2>
+    <div class="about-wrapper">
+        <div class="about-content reveal">
+            <p class="about-lead">Hi, I'm Sean Paolo Martinez, a passionate web developer from Mabalacat City, Pampanga.</p>
+            <p class="about-body">I build websites because I enjoy it, simple as that. 
+                                  There's something satisfying about turning a blank page into something functional and well-designed. 
+                                  I care about how things look, how they feel to use, and how clean the code is underneath. 
+                                  I'm constantly learning and I genuinely look forward to every project, even the parts that make me scratch my head.</p>
+        </div>
+        <div class="about-right reveal reveal-delay-1">
+            <div class="about-skills-block">
+                <h3>Technical Skills</h3>
+                <div class="skill-bars">
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-label"><span>HTML5</span><span>90%</span></div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-label"><span>CSS3</span><span>85%</span></div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-bar-item">
+                        <div class="skill-bar-label"><span>JavaScript</span><span>75%</span></div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill" data-width="75%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CERTS FULL WIDTH -->
+    <div class="about-certs-block certs-full reveal" style="margin-top: 3rem;">
+        <h3>Certifications</h3>
+        <div class="cert-grid">
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">Legacy JS Algorithms &amp; Data Structures V7</span><span class="cert-issuer">freeCodeCamp · February 2026</span></div>
+                <a href="https://www.freecodecamp.org/certification/martinezsean/javascript-algorithms-and-data-structures" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">Legacy Responsive Web Design V8</span><span class="cert-issuer">freeCodeCamp · September 2024</span></div>
+                <a href="https://www.freecodecamp.org/certification/martinezsean/responsive-web-design" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">Introduction to PHP</span><span class="cert-issuer">Simplilearn SkillUp · February 2025</span></div>
+                <a href="https://simpli-web.app.link/e/0nGVP3Lm10b" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">Design Thinking for Beginners</span><span class="cert-issuer">Simplilearn SkillUp · July 2025</span></div>
+                <a href="https://simpli-web.app.link/e/hgpFpfOm10b" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">Introduction to Figma</span><span class="cert-issuer">Simplilearn SkillUp</span></div>
+                <a href="https://simpli-web.app.link/e/1YmZQhSm10b" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">Website UI/UX Designing using ChatGPT: Become a UI UX Designer</span><span class="cert-issuer">Simplilearn SkillUp · August 2025</span></div>
+                <a href="https://simpli-web.app.link/e/Qhbb0pTm10b" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">Introduction to Graphic Design: Basics of UI/UX</span><span class="cert-issuer">Simplilearn SkillUp</span></div>
+                <a href="https://simpli-web.app.link/e/OfTXVOUm10b" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">HubSpot SEO Certified</span><span class="cert-issuer">HubSpot Academy · January 2026</span></div>
+                <a href="https://app-na2.hubspot.com/academy/achievements/86xsg6h4/en/1/sean-martinez/seo" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">HubSpot SEO II Certified</span><span class="cert-issuer">HubSpot Academy · February 2026</span></div>
+                <a href="https://app-na2.hubspot.com/academy/achievements/hpzv1w9n/en/1/sean-martinez/seo-ii" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+            <div class="cert-item">
+                <div class="cert-icon"><i class="fa fa-certificate"></i></div>
+                <div><span class="cert-name">Digital Advertising</span><span class="cert-issuer">HubSpot Academy</span></div>
+                <a href="https://app-na2.hubspot.com/academy/achievements/t3cp4vl7/en/1/sean-martinez/digital-advertising" target="_blank" class="cert-btn">View Credential <i class="fa fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+    <h2 class="section-title reveal">Languages &amp; <span>Tools</span></h2>
+    <div class="skills-grid">
+        <div class="tool-card reveal reveal-delay-1"><img src="https://img.icons8.com/color/96/html-5.png" alt="HTML5"><p>HTML5</p></div>
+        <div class="tool-card reveal reveal-delay-1"><img src="https://img.icons8.com/color/96/css3.png" alt="CSS3"><p>CSS3</p></div>
+        <div class="tool-card reveal reveal-delay-2"><img src="https://img.icons8.com/color/96/javascript.png" alt="JavaScript"><p>JavaScript</p></div>
+        <div class="tool-card reveal reveal-delay-1"><img src="https://img.icons8.com/color/96/figma.png" alt="Figma"><p>Figma</p></div>
+        <div class="tool-card reveal reveal-delay-2"><img src="https://img.icons8.com/color/96/java-coffee-cup-logo.png" alt="Java"><p>Java</p></div>
+        <div class="tool-card reveal reveal-delay-3"><img src="https://img.icons8.com/color/96/python.png" alt="Python"><p>Python</p></div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+    <h2 class="section-title reveal">My <span>Projects</span></h2>
+    <div class="projects-grid">
+
+        <div class="project-card reveal reveal-delay-1">
+            <div class="project-thumb">
+                <div class="project-slideshow">
+                    <div class="slide active"><img src="assets/images/project/homepage.png" alt="homepage"></div>
+                    <div class="slide"><img src="assets/images/project/checkout.png" alt="checkout page"></div>
+                    <div class="slide"><img src="assets/images/project/shop.png" alt="shop page"></div>
+                    <button class="slide-btn prev" onclick="changeSlide(this, -1)"><i class="fa fa-chevron-left"></i></button>
+                    <button class="slide-btn next" onclick="changeSlide(this, 1)"><i class="fa fa-chevron-right"></i></button>
+                </div>
+                <span class="project-tag-overlay">Web</span>
+            </div>
+            <div class="project-info">
+                <h3>DBTK E-Commerce Website</h3>
+                <p class="project-subtitle">Academic Project</p>
+                <p>Built a responsive e-commerce website using PHP, HTML, CSS, and MySQL, featuring user authentication, shopping cart and checkout functionality, an admin dashboard for managing users, products, orders, and revenue.</p>
+                <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div>
+                <div class="project-links">
+                    <a href="https://github.com/Sean-Pers0nal/dbtk_store"><i class="fa-brands fa-github"></i> GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-2">
+            <div class="project-thumb">
+                <div class="project-slideshow">
+                    <div class="slide active"><img src="assets/images/project/soundwave home.png" alt="homepage"></div>
+                    <div class="slide"><img src="assets/images/project/soundwave blog.png" alt="blog page"></div>
+                    <div class="slide"><img src="assets/images/project/soundwave about.png" alt="about page"></div>
+                    <button class="slide-btn prev" onclick="changeSlide(this, -1)"><i class="fa fa-chevron-left"></i></button>
+                    <button class="slide-btn next" onclick="changeSlide(this, 1)"><i class="fa fa-chevron-right"></i></button>
+                </div>
+                <span class="project-tag-overlay">Web Site</span>
+            </div>
+            <div class="project-info">
+                <h3>Soundwave Hub</h3>
+                <p class="project-subtitle">Academic Project</p>
+                <p>A music blog where you share insights and posts about how music inspires creativity, improves focus and mood, and connects with other music lovers.</p>
+                <div class="project-tags"><span>WordPress</span></div>
+                <div class="project-links">
+                    <a href="https://seanpaolo1.wordpress.com/" target="_blank"><i class="fa fa-external-link"></i> Visit Site</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <h2 class="section-title reveal">Let's <span>Connect</span></h2>
+    <div class="contact-wrapper">
+        <div class="contact-info reveal">
+            <p class="contact-intro">Have a project in mind or just want to say hi? My inbox is always open.</p>
+            <div class="contact-links">
+                <div class="contact-link-item">
+                    <div class="contact-link-icon"><i class="fa fa-envelope"></i></div>
+                    <div>
+                        <span class="contact-link-label">Email</span>
+                        <span class="contact-link-value">martinezseanpaolol&#64;gmail.com</span>
+                    </div>
+                </div>
+                <div class="contact-link-item">
+                    <div class="contact-link-icon"><i class="fa fa-phone"></i></div>
+                    <div>
+                        <span class="contact-link-label">Phone</span>
+                        <span class="contact-link-value">+63 993 526 1559</span>
+                    </div>
+                </div>
+                <div class="contact-link-item">
+                    <div class="contact-link-icon"><i class="fa fa-map-marker-alt"></i></div>
+                    <div>
+                        <span class="contact-link-label">Location</span>
+                        <span class="contact-link-value">Mabalacat City, Pampanga, PH</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form class="contact-form reveal reveal-delay-1" action="https://formspree.io/f/mnjbovze" method="POST">
+            <input type="hidden" name="_replyto" value="martinezseanpaolol@gmail.com">
+            <input type="hidden" name="_subject" value="New Portfolio Message from Contact Form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea rows="5" name="message" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <div class="privacy-notice">
+                <i class="fa fa-lock"></i>
+                <p>Your information is safe. By submitting, you agree to my <a href="javascript:void(0)" onclick="openModal('privacy')" class="policy-link">Privacy Policy</a> and <a href="javascript:void(0)" onclick="openModal('terms')" class="policy-link">Terms of Use</a>. I only use your details to respond to your message — nothing is shared or sold.</p>
+            </div>
+            <button type="submit" class="btn-primary full-width" id="submitBtn">
+                <i class="fa fa-paper-plane"></i> Send Message
+            </button>
+        </form>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-inner">
+        <div class="footer-left">
+            <img src="assets/images/SPM_logo.png" alt="SPM" class="footer-logo">
+            <p>Building the web, one pixel at a time.</p>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/sean-martinez-06139132b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://discord.com/users/nakaviolet." target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://github.com/Sean-Pers0nal" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Sean Paolo Martinez. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<!-- PRIVACY & TERMS MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal()">
+    <div class="modal-box" onclick="event.stopPropagation()">
+        <button class="modal-close" onclick="closeModal()"><i class="fa fa-times"></i></button>
+
+        <!-- PRIVACY POLICY -->
+        <div id="modal-privacy" class="modal-content">
+            <div class="modal-header">
+                <div class="modal-icon"><i class="fa fa-shield-halved"></i></div>
+                <h2>Privacy Policy</h2>
+                <p class="modal-date">Effective: January 2025</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3><i class="fa fa-circle-info"></i> Information I Collect</h3>
+                    <p>When you use the contact form on this portfolio, I collect only the information you voluntarily provide: your <strong>name</strong>, <strong>email address</strong>, and <strong>message</strong>. No other data is collected automatically.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-bullseye"></i> How I Use Your Information</h3>
+                    <p>Your information is used solely to <strong>respond to your inquiry</strong>. I will never use your contact details for marketing, newsletters, or any unsolicited communication.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-share-nodes"></i> Data Sharing</h3>
+                    <p>I do <strong>not</strong> sell, trade, rent, or share your personal information with any third parties. Your data stays between you and me.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-database"></i> Data Retention</h3>
+                    <p>Your message and contact details are kept only as long as necessary to respond to your inquiry. After our conversation is complete, your data is not retained in any database.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-lock"></i> Security</h3>
+                    <p>I take reasonable precautions to protect your information. However, no method of transmission over the Internet is 100% secure.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-envelope"></i> Contact</h3>
+                    <p>If you have any questions about this Privacy Policy, feel free to reach out at <strong>martinezseanpaolol&#64;gmail.com</strong>.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TERMS OF USE -->
+        <div id="modal-terms" class="modal-content" style="display:none;">
+            <div class="modal-header">
+                <div class="modal-icon"><i class="fa fa-file-contract"></i></div>
+                <h2>Terms of Use</h2>
+                <p class="modal-date">Effective: January 2025</p>
+            </div>
+            <div class="modal-body">
+                <div class="modal-section">
+                    <h3><i class="fa fa-circle-check"></i> Acceptance</h3>
+                    <p>By accessing this portfolio website, you agree to these Terms of Use. If you do not agree, please do not use this site.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-globe"></i> Use of This Site</h3>
+                    <p>This website is a personal portfolio intended to showcase my work and skills. You may browse and share links to this site freely. You may <strong>not</strong> copy, reproduce, or redistribute any content, code, or designs without my written permission.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-pen-to-square"></i> Intellectual Property</h3>
+                    <p>All content on this site — including text, images, project screenshots, and code — is the intellectual property of Sean Paolo Martinez unless otherwise stated.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-comment"></i> Contact Form</h3>
+                    <p>When you use the contact form, you agree to provide accurate information and to use the form only for legitimate inquiries. Spam, harassment, or misuse is strictly prohibited.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-triangle-exclamation"></i> Disclaimer</h3>
+                    <p>This site is provided "as is" without any warranties. I am not responsible for any errors, downtime, or issues that may arise from using this website.</p>
+                </div>
+                <div class="modal-section">
+                    <h3><i class="fa fa-rotate"></i> Changes</h3>
+                    <p>I reserve the right to update these Terms at any time. Continued use of the site after changes constitutes your acceptance of the new terms.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    /* TYPED TEXT */
+    const textElement = document.getElementById("typed-text");
+    const phrases = ["web experiences.", "clean interfaces.", "modern websites.", "creative solutions."];
+    let phraseIndex = 0, charIndex = 0, isDeleting = false;
+
+    function typeEffect() {
+        const currentPhrase = phrases[phraseIndex];
+        textElement.textContent = isDeleting
+            ? currentPhrase.substring(0, charIndex--)
+            : currentPhrase.substring(0, charIndex++);
+        if (!isDeleting && charIndex === currentPhrase.length) {
+            setTimeout(() => isDeleting = true, 1500);
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            phraseIndex = (phraseIndex + 1) % phrases.length;
+        }
+        setTimeout(typeEffect, isDeleting ? 40 : 90);
+    }
+    document.addEventListener("DOMContentLoaded", typeEffect);
+
+    /* HEADER SCROLL */
+    const header = document.getElementById("header");
+    window.addEventListener("scroll", () => {
+        header.classList.toggle("scrolled", window.scrollY > 60);
+        updateActiveNav();
+    });
+
+    /* ACTIVE NAV */
+    function updateActiveNav() {
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.navbar a');
+        let current = '';
+        sections.forEach(s => {
+            if (window.scrollY >= s.offsetTop - 200) current = s.getAttribute('id');
+        });
+        navLinks.forEach(a => {
+            a.classList.remove('active');
+            if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+        });
+    }
+
+    /* HAMBURGER */
+    const hamburger = document.getElementById("hamburger");
+    const navbar = document.getElementById("navbar");
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navbar.classList.toggle("open");
+    });
+    navbar.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navbar.classList.remove('open');
+        });
+    });
+
+    /* SCROLL REVEAL */
+    const reveals = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                revealObserver.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => revealObserver.observe(el));
+
+    /* SKILL BAR ANIMATION */
+    const skillFills = document.querySelectorAll('.skill-bar-fill');
+    skillFills.forEach(bar => {
+        const targetWidth = bar.getAttribute('data-width');
+        bar.style.width = '0%';
+        const skillObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.width = targetWidth;
+                    skillObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.3 });
+        skillObserver.observe(bar);
+    });
+
+    /* PROJECT SLIDESHOW */
+    function changeSlide(btn, direction) {
+        const slideshow = btn.closest('.project-slideshow');
+        const slides = slideshow.querySelectorAll('.slide');
+        let current = [...slides].findIndex(s => s.classList.contains('active'));
+        slides[current].classList.remove('active');
+        current = (current + direction + slides.length) % slides.length;
+        slides[current].classList.add('active');
+    }
+
+    /* MODAL */
+    function openModal(type) {
+        document.getElementById('modalOverlay').classList.add('active');
+        document.getElementById('modal-privacy').style.display = type === 'privacy' ? 'block' : 'none';
+        document.getElementById('modal-terms').style.display = type === 'terms' ? 'block' : 'none';
+        document.body.style.overflow = 'hidden';
+    }
+    function closeModal() {
+        document.getElementById('modalOverlay').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+</script>
+</body>
+</html>
